@@ -151,7 +151,7 @@ function addLights() {
 function addPlane() {
     const geometry = new THREE.PlaneBufferGeometry(500, 500, 32);
     const material = new THREE.MeshPhongMaterial({
-        color: 0x570b22,
+        color: '#700f35',
         shininess: 10,
     });
     const plane = new THREE.Mesh(geometry, material);
@@ -219,7 +219,7 @@ class Ornament {
     }
     addLine() {
         const material = new THREE.LineBasicMaterial({
-            color: 0x666666,
+            color: 0x777777,
         });
         const points = [
             new THREE.Vector3(0, 0, 0),
